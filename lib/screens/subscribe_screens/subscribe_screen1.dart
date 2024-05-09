@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:may8/screens/podcast_screens/podcast_screen1.dart';
+import 'package:may8/screens/popular_screens/popular_screen1.dart';
 import 'package:may8/widgets/subscribe/subscribe_music.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
@@ -48,7 +49,7 @@ class SubscribeScreen extends StatelessWidget {
                             Navigator.push(
                               context,
                               MaterialPageRoute(builder: (context) {
-                                return SubscribeScreen();
+                                return PopularScreen();
                               }),
                             );
                           },

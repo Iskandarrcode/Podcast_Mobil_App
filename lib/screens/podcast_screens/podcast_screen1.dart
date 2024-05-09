@@ -114,7 +114,7 @@ class PodcastScreen extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return SubscribeScreen();
+                      return PopularScreen();
                     },
                   ),
                 );
